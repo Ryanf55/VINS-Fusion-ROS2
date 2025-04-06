@@ -12,6 +12,11 @@
   <depend>rclcpp</depend>
   <depend>std_msgs</depend>
   <depend>cv_bridge</depend>
+  <build_depend>libboost-filesystem-dev</build_depend>
+  <exec_depend>libboost-filesystem</exec_depend>
+  <build_depend>libboost-program-options-dev</build_depend>
+  <exec_depend>libboost-program-options</exec_depend>
+  <depend>libceres-dev</depend>
 
   <test_depend>ament_lint_auto</test_depend>
   <test_depend>ament_lint_common</test_depend>
